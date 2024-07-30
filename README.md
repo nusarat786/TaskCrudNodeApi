@@ -19,10 +19,6 @@ This document provides a detailed overview of a Node.js CRUD API for managing ta
 | DELETE      | `/api/items/:id`| Delete an item by ID                      |
 
 
-4. [Middleware](#middleware)
-5. [Error Handling](#error-handling)
-6. [Starting the Server](#starting-the-server)
-
 ## Installation
 
 To install and run the project, follow these steps:
@@ -44,11 +40,8 @@ To install and run the project, follow these steps:
 
 This project requires a connection to a MongoDB database. The connection setup is managed in the `connect` module. Ensure your MongoDB URI is correctly set in this module.
 
-## Endpoints
 
-### GET /
 
-**Description:**  
-Returns a welcome message indicating the API's purpose.
+
 
 
