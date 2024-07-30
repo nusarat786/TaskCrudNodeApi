@@ -6,12 +6,19 @@ This document provides a detailed overview of a Node.js CRUD API for managing ta
 1. [Installation](#installation)
 2. [Configuration](#configuration)
 3. [Endpoints](#endpoints)
-   - [GET /](#get-)
-   - [POST /tasks](#post-tasks)
-   - [GET /tasks](#get-tasks)
-   - [GET /tasks/:id](#get-tasksid)
-   - [PUT /tasks/:id](#put-tasksid)
-   - [DELETE /tasks/:id](#delete-tasksid)
+
+## Endpoints
+
+| HTTP Method | Endpoint        | Description                               |
+|-------------|-----------------|-------------------------------------------|
+| GET         | `/`             | Home page or root endpoint                |
+| GET         | `/api/items`    | Get a list of all items                   |
+| GET         | `/api/items/:id`| Get a specific item by ID                 |
+| POST        | `/api/items`    | Create a new item                         |
+| PUT         | `/api/items/:id`| Update an existing item by ID             |
+| DELETE      | `/api/items/:id`| Delete an item by ID                      |
+
+
 4. [Middleware](#middleware)
 5. [Error Handling](#error-handling)
 6. [Starting the Server](#starting-the-server)
