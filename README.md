@@ -12,11 +12,11 @@ This document provides a detailed overview of a Node.js CRUD API for managing ta
 | HTTP Method | Endpoint        | Description                               |
 |-------------|-----------------|-------------------------------------------|
 | GET         | `/`             | Home page or root endpoint                |
-| GET         | `/api/items`    | Get a list of all items                   |
-| GET         | `/api/items/:id`| Get a specific item by ID                 |
-| POST        | `/api/items`    | Create a new item                         |
-| PUT         | `/api/items/:id`| Update an existing item by ID             |
-| DELETE      | `/api/items/:id`| Delete an item by ID                      |
+| GET         | `/api/tasks`    | Get a list of all tasks                   |
+| GET         | `/api/tasks/:id`| Get a specific item by ID                 |
+| POST        | `/api/tasks`    | Create a new item                         |
+| PUT         | `/api/tasks/:id`| Update an existing item by ID             |
+| DELETE      | `/api/tasks/:id`| Delete an item by ID                      |
 
 
 ## Installation
