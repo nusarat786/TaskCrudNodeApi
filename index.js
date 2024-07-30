@@ -18,7 +18,7 @@ app.use(cookieParser());
 // using cors allowing frontend restrictions 
 app.use(cors({
     credentials: true,
-    origin: 'https://haveliwalanusaratfrontendtwitter.onrender.com'
+    origin: 'http://localhost:3000/'
 }));
 
 
