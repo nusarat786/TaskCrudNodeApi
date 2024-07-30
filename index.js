@@ -18,7 +18,7 @@ app.use(cookieParser());
 // using cors allowing frontend restrictions 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'https://taskcrudreactboostrap.onrender.com'
 }));
 
 
